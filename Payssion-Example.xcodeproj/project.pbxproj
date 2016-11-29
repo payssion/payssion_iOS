@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC55AA7C1DED1BEF001386E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC55AA7B1DED1BEF001386E7 /* main.m */; };
+		CC55AA7F1DED1BEF001386E7 /* PayssionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC55AA7E1DED1BEF001386E7 /* PayssionAppDelegate.m */; };
+		CC55AA821DED1BEF001386E7 /* PayssionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC55AA811DED1BEF001386E7 /* PayssionViewController.m */; };
+		CC55AA851DED1BEF001386E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC55AA831DED1BEF001386E7 /* Main.storyboard */; };
+		CC55AA871DED1BEF001386E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC55AA861DED1BEF001386E7 /* Assets.xcassets */; };
+		CC55AA8A1DED1BEF001386E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC55AA881DED1BEF001386E7 /* LaunchScreen.storyboard */; };
+		CC55AA941DED22FA001386E7 /* PayssionSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC55AA931DED22FA001386E7 /* PayssionSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC55AA771DED1BEF001386E7 /* Payssion-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Payssion-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC55AA7B1DED1BEF001386E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC55AA7D1DED1BEF001386E7 /* PayssionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayssionAppDelegate.h; sourceTree = "<group>"; };
+		CC55AA7E1DED1BEF001386E7 /* PayssionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayssionAppDelegate.m; sourceTree = "<group>"; };
+		CC55AA801DED1BEF001386E7 /* PayssionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayssionViewController.h; sourceTree = "<group>"; };
+		CC55AA811DED1BEF001386E7 /* PayssionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayssionViewController.m; sourceTree = "<group>"; };
+		CC55AA841DED1BEF001386E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC55AA861DED1BEF001386E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC55AA891DED1BEF001386E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC55AA8B1DED1BEF001386E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC55AA931DED22FA001386E7 /* PayssionSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PayssionSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC55AA741DED1BEF001386E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC55AA941DED22FA001386E7 /* PayssionSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC55AA6E1DED1BEF001386E7 = {
+			isa = PBXGroup;
+			children = (
+				CC55AA791DED1BEF001386E7 /* Payssion-Example */,
+				CC55AA781DED1BEF001386E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC55AA781DED1BEF001386E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC55AA771DED1BEF001386E7 /* Payssion-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC55AA791DED1BEF001386E7 /* Payssion-Example */ = {
+			isa = PBXGroup;
+			children = (
+				CC55AA7D1DED1BEF001386E7 /* PayssionAppDelegate.h */,
+				CC55AA7E1DED1BEF001386E7 /* PayssionAppDelegate.m */,
+				CC55AA801DED1BEF001386E7 /* PayssionViewController.h */,
+				CC55AA811DED1BEF001386E7 /* PayssionViewController.m */,
+				CC55AA831DED1BEF001386E7 /* Main.storyboard */,
+				CC55AA861DED1BEF001386E7 /* Assets.xcassets */,
+				CC55AA881DED1BEF001386E7 /* LaunchScreen.storyboard */,
+				CC55AA8B1DED1BEF001386E7 /* Info.plist */,
+				CC55AA931DED22FA001386E7 /* PayssionSDK.framework */,
+				CC55AA7A1DED1BEF001386E7 /* Supporting Files */,
+			);
+			path = "Payssion-Example";
+			sourceTree = "<group>";
+		};
+		CC55AA7A1DED1BEF001386E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC55AA7B1DED1BEF001386E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC55AA761DED1BEF001386E7 /* Payssion-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC55AA8E1DED1BEF001386E7 /* Build configuration list for PBXNativeTarget "Payssion-Example" */;
+			buildPhases = (
+				CC55AA731DED1BEF001386E7 /* Sources */,
+				CC55AA741DED1BEF001386E7 /* Frameworks */,
+				CC55AA751DED1BEF001386E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Payssion-Example";
+			productName = "Payssion-Example";
+			productReference = CC55AA771DED1BEF001386E7 /* Payssion-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC55AA6F1DED1BEF001386E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Payssion;
+				TargetAttributes = {
+					CC55AA761DED1BEF001386E7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = U8J679G2ZR;
+					};
+				};
+			};
+			buildConfigurationList = CC55AA721DED1BEF001386E7 /* Build configuration list for PBXProject "Payssion-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC55AA6E1DED1BEF001386E7;
+			productRefGroup = CC55AA781DED1BEF001386E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC55AA761DED1BEF001386E7 /* Payssion-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC55AA751DED1BEF001386E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC55AA8A1DED1BEF001386E7 /* LaunchScreen.storyboard in Resources */,
+				CC55AA871DED1BEF001386E7 /* Assets.xcassets in Resources */,
+				CC55AA851DED1BEF001386E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC55AA731DED1BEF001386E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC55AA821DED1BEF001386E7 /* PayssionViewController.m in Sources */,
+				CC55AA7F1DED1BEF001386E7 /* PayssionAppDelegate.m in Sources */,
+				CC55AA7C1DED1BEF001386E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC55AA831DED1BEF001386E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC55AA841DED1BEF001386E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC55AA881DED1BEF001386E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC55AA891DED1BEF001386E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC55AA8C1DED1BEF001386E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC55AA8D1DED1BEF001386E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC55AA8F1DED1BEF001386E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Payssion-Example",
+				);
+				INFOPLIST_FILE = "Payssion-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.payssion.ios.example.Payssion-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC55AA901DED1BEF001386E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Payssion-Example",
+				);
+				INFOPLIST_FILE = "Payssion-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.payssion.ios.example.Payssion-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC55AA721DED1BEF001386E7 /* Build configuration list for PBXProject "Payssion-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC55AA8C1DED1BEF001386E7 /* Debug */,
+				CC55AA8D1DED1BEF001386E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC55AA8E1DED1BEF001386E7 /* Build configuration list for PBXNativeTarget "Payssion-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC55AA8F1DED1BEF001386E7 /* Debug */,
+				CC55AA901DED1BEF001386E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC55AA6F1DED1BEF001386E7 /* Project object */;
+}
