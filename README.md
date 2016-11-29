@@ -4,7 +4,7 @@ Payssion Mobile SDK for iOS
 ##### 1. 将文件`PayssionSDK.framework`拷贝到项目文件夹下，并导入到项目工程中。   
 在Build Phases选项卡的Link Binary With Libraries中，增加以下依赖：
 
-![alt text](/libs/librarie.png "lib")
+![alt text](/img/librarie.png "img")
 
 ##### 2. 在需要调用PayssionSDK的文件中，增加头文件引用。并遵守PaymentDelegate协议
 ```xml
@@ -17,14 +17,14 @@ Payssion Mobile SDK for iOS
 ##### 3. 组装请求信息。
 ```xml
     PayRequest *payRequest = [[PayRequest alloc] init];
-    payRequest.mLiveMode = false;
-    payRequest.mAPIKey = @"916937a82dd7af5a";
-    payRequest.mSecretKey = @"demo456";
-    payRequest.mPMId = @"boleto_br";
-    payRequest.mAmount = @"100";
-    payRequest.mCurrency = @"USD";
-    payRequest.mOrderId = @"order id 123";
-    payRequest.mDescription = @"IOS order by payssion, orderId:123";
+    payRequest.live_mode = false;
+    payRequest.api_key = @"916937a82dd7af5a";
+    payRequest.secret_key = @"demo456";
+    payRequest.pm_id = @"boleto_br";
+    payRequest.amount = @"100";
+    payRequest.currency = @"USD";
+    payRequest.order_id = @"order id 123";
+    payRequest.description = @"game recharge #123";
 ```
 ## 代码示例
 ###创建交易
@@ -57,7 +57,7 @@ iOS 9 中新增了 App Transport Security 特性, 主要影响是使得原来请
 
 在项目的 `Info.plist` 文件中添加如下字段：
 
-![alt text](/libs/security.png "lib")
+![alt text](/img/security.png "img")
 
 对应的字段如下：
 
