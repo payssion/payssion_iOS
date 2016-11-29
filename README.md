@@ -1,7 +1,10 @@
 # payssion_iOS
 Payssion Mobile SDK for iOS
 ## 导入代码
-##### 1. 将文件`PayssionSDK.framework`拷贝到项目文件夹下，并导入到项目工程中。   
+##### 1.将framework文件夹下的`PayssionSDK.framework.zip`压缩文件中以下文件拷贝到项目文件夹下，并导入到项目工程中。
+```xml
+ PayssionSDK.framework
+```
 在Build Phases选项卡的Link Binary With Libraries中，增加以下依赖：
 
 ![alt text](/img/librarie.png "img")
