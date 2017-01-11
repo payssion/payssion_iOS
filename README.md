@@ -101,8 +101,8 @@
 
 2. 在接收`notify_url`数据时需验证签名`notify_sig`。详情请[查阅文档](https://payssion.com/en/docs/#api-reference-signature)[(中文请点击)](https://payssion.com/cn/docs/#api-api-signature)以及[Demo](https://github.com/payssion/payssion-php/blob/master/samples/sample_postback.php)。
 
-###常见疑问
-1. 提示`pp Transport Security has blocked a cleartext HTTP (http://) resource load since it is insecure.`
+## 常见疑问
+**1.** 提示`pp Transport Security has blocked a cleartext HTTP (http://) resource load since it is insecure.`
 
 上述问题需要`修改 App Transport Security 策略`
 
