@@ -68,20 +68,18 @@
 
 ###1.参数说明
 
-返回数据封装为PayResponse类
-
+返回数据封装为PayResponse类。PayResponse不为空就意味着客户端支付流程结束，准确支付结果以notify_url通知为准。
 | 参数名         | 类型          | 释义              | 详解                   |
 | :-------------- |:------------ |:----------- |:---------------------------- |
 | mTransactionId  | NSString      | 交易id|Payssion 交易号 id,如订单异常,需提供此 id
 | mOrderId        | NSString      | 订单id| 客户发起支付时自定义的订单 id。注意与`mTransactionId`区分
-| mState          | NSString      | 支付状态| 状态值见下表，准确支付结果以notify_url通知为准
+| mState          | NSString      | 订单状态| 状态值见下表，当前获取的状态有延迟，准确支付结果以notify_url通知为准
 | mAmount         | NSString      | 订单金额|
 
 ###2.支付状态说明
 
 | 支付状态 	        | 说明       |
 | :----------------- | :--------------------- |
-| RESULT_OK           | 支付成功    |
 | error	              |支付发生错误
 | pending	            |未完成支付
 | completed	          |支付成功
