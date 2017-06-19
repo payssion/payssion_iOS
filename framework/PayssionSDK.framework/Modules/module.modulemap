@@ -1,0 +1,6 @@
+framework module PayssionSDK {
+  umbrella header "PayssionSDK.h"
+
+  export *
+  module * { export * }
+}
