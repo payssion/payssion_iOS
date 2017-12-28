@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 @interface PaymentBaseController : UIViewController
 
-
+- (void)getCountry;
 
 @end

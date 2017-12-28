@@ -10,8 +10,10 @@
 #import "PayResponse.h"
 #import "PaymentValueDelegate.h"
 #import "PaymentDelegate.h"
+#import "PaymentBaseController.h"
+#import <UIKit/UIKit.h>
 
-@interface PaymentMainController : UIViewController<PaymentDelegate>
+@interface PaymentMainController : PaymentBaseController<PaymentDelegate>
 
 @property (strong,nonatomic) PayRequest *payRequest;
 

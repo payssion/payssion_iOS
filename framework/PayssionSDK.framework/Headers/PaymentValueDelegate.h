@@ -10,8 +10,10 @@
 
 @protocol PaymentValueDelegate <NSObject>
 
--(void)passState:(NSString *)state;
+- (void)passState:(NSString *)state;
 
 - (void)handlBack:(NSString *)back;
+
+- (void)selectPayment:(NSString *)payment;
 
 @end

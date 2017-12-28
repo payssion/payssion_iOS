@@ -21,6 +21,6 @@
 @property (copy, nonatomic) NSString *payer_email;
 @property (copy, nonatomic) NSString *payer_ref;
 @property (copy, nonatomic) NSString *descriptions;
-
+@property (copy, nonatomic) NSMutableDictionary *extra_items;
 
 @end

@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
 #import "PaymentValueDelegate.h"
+#import "PaymentBaseController.h"
 
-@interface PaymentWebController : UIViewController
+@interface PaymentWebController : PaymentBaseController
 
 @property (nonatomic,copy) NSString *reUrl;
 
